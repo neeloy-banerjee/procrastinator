@@ -1,6 +1,6 @@
-// Copyright (c) 2011 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
+// Procrastinator news Chrome Extension
+
+// Author: Neeloy Banerjee
 
 function return_news_array(bookmarks) {
   var news_array = [];
