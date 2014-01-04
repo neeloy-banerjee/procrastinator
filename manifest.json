@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Procrastinator",
+  "description": "This extension will open a tab containing a random website from your bookmark's News folder.",
+  "version": "0.0.1",
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "tabs",
+    "bookmarks"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  }
+}
